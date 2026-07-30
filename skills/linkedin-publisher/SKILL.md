@@ -1,3 +1,3 @@
-# Manual LinkedIn handoff
+# LinkedIn publisher
 
-Prepara el material para la interfaz nativa de LinkedIn. No llama a APIs, no controla el navegador y no publica ni comenta automáticamente.
+Usa la API oficial tras validar autorizacion, publica la imagen y el copy, recibe la URN, crea el primer comentario aprobado y guarda el resultado. Nunca usa un navegador automatizado.

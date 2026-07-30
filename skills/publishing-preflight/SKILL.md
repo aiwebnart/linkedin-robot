@@ -1,3 +1,3 @@
 # Publishing preflight
 
-Comprueba estado aprobado, archivos existentes, URL maestra de LinkedIn Pulse y ausencia de publicación anterior. Ante un fallo, bloquea la publicación.
+Comprueba que la pieza este aprobada, que post.md, image.png y comment.md existan, que el enlace maestro sea valido y que no haya una publicacion anterior. Tambien exige que la campana y la autorizacion API esten activadas antes de una publicacion real.

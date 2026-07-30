@@ -1,12 +1,11 @@
 {
-  "name": "linkedin-antimetricas-companion",
+  "name": "linkedin-antimetricas-publisher",
   "private": false,
-  "version": "1.1.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "check": "node --test",
-    "prepare": "node src/run-daily.js",
-    "mark-published": "node src/mark-published.js"
+    "check": "node --test --test-concurrency=1",
+    "dry-run": "node src/run-daily.js --dry-run"
   },
   "engines": { "node": ">=20" }
 }

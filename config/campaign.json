@@ -1,26 +1,99 @@
 {
-  "campaign": "antimetricas-2026",
-  "timezone": "Europe/Paris",
-  "publishHour": 10,
-  "mode": "automatic",
-  "masterEssayUrl": "https://www.linkedin.com/pulse/antim%C3%A9tricas-lo-que-de-verdad-deber%C3%ADamos-aprender-kwpie/",
-  "items": [
-    { "id": "01", "slug": "indice-de-verborragia", "status": "approved" },
-    { "id": "02", "slug": "tasa-de-delegacion-inversa", "status": "approved" },
-    { "id": "03", "slug": "indice-de-volatilidad-de-criterio", "status": "approved" },
-    { "id": "04", "slug": "indice-de-abandono-operativo", "status": "approved" },
-    { "id": "05", "slug": "brecha-promesa-entrega", "status": "approved" },
-    { "id": "06", "slug": "indice-de-disculpa-vacia", "status": "approved" },
-    { "id": "07", "slug": "indice-de-obediencia-inversa", "status": "approved" },
-    { "id": "08", "slug": "indice-de-verificacion-fingida", "status": "approved" },
-    { "id": "09", "slug": "latencia-de-valor", "status": "approved" },
-    { "id": "10", "slug": "peaje-de-supervision", "status": "approved" },
-    { "id": "11", "slug": "indice-de-retrabajo", "status": "approved" },
-    { "id": "12", "slug": "indice-de-hipercautela", "status": "approved" },
-    { "id": "13", "slug": "indice-de-temeridad", "status": "approved" },
-    { "id": "14", "slug": "indice-de-amnesia-contextual", "status": "approved" },
-    { "id": "15", "slug": "peaje-de-clarificacion", "status": "approved" },
-    { "id": "16", "slug": "indice-de-repeticion-esteril", "status": "approved" },
-    { "id": "17", "slug": "indice-de-desvario", "status": "approved" }
-  ]
+    "campaign":  "antimetricas-2026",
+    "timezone":  "Europe/Paris",
+    "publishHour":  10,
+    "mode":  "automatic",
+    "masterEssayUrl":  "https://www.linkedin.com/pulse/antim%C3%A9tricas-lo-que-de-verdad-deber%C3%ADamos-aprender-kwpie/",
+    "items":  [
+                  {
+                      "id":  "01",
+                      "slug":  "indice-de-verborragia",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "02",
+                      "slug":  "tasa-de-delegacion-inversa",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "03",
+                      "slug":  "indice-de-volatilidad-de-criterio",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "04",
+                      "slug":  "indice-de-abandono-operativo",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "05",
+                      "slug":  "brecha-promesa-entrega",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "06",
+                      "slug":  "indice-de-disculpa-vacia",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "07",
+                      "slug":  "indice-de-obediencia-inversa",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "08",
+                      "slug":  "indice-de-verificacion-fingida",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "09",
+                      "slug":  "latencia-de-valor",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "10",
+                      "slug":  "peaje-de-supervision",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "11",
+                      "slug":  "indice-de-retrabajo",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "12",
+                      "slug":  "indice-de-hipercautela",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "13",
+                      "slug":  "indice-de-temeridad",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "14",
+                      "slug":  "indice-de-amnesia-contextual",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "15",
+                      "slug":  "peaje-de-clarificacion",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "16",
+                      "slug":  "indice-de-repeticion-esteril",
+                      "status":  "approved"
+                  },
+                  {
+                      "id":  "17",
+                      "slug":  "indice-de-desvario",
+                      "status":  "approved"
+                  }
+              ],
+    "enabled":  false,
+    "requiredScopes":  [
+                           "w_member_social",
+                           "w_member_social_feed"
+                       ]
 }
