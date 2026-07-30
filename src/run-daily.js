@@ -28,7 +28,9 @@ const postPath = path.join(directory, 'post.md');
 const imagePath = path.join(directory, 'image.png');
 const commentPath = path.join(directory, 'comment.md');
 await preflight({ item, postPath, imagePath, commentPath, log, essayUrl: campaign.masterEssayUrl });
-const [post, comment] = await Promise.all([readFile(postPath, 'utf8'), readFile(commentPath, 'utf8')]);
+const [rawPost, rawComment] = await Promise.all([readFile(postPath, 'utf8'), readFile(commentPath, 'utf8')]);
+const post = rawPost.replace(/^\uFEFF/, '').trim();
+const comment = rawComment.replace(/^\uFEFF/, '').trim();
 if (dryRun) {
   console.log(JSON.stringify({ item: item.id, post, comment, imagePath }, null, 2));
   process.exit(0);
