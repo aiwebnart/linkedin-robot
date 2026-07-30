@@ -1,8 +1,9 @@
-# Reglas del asistente LinkedIn
+# Reglas del robot LinkedIn
 
-- El copy, imagen y comentario de cada carpeta de `content/antimetricas` están aprobados e inmutables.
-- El proyecto prepara contenido para publicación; no inicia sesión, no usa la API de LinkedIn ni automatiza acciones dentro de LinkedIn.
-- La publicación y el primer comentario se realizan manualmente desde la interfaz nativa de LinkedIn.
-- Están prohibidos scraping, automatización de navegador, mensajes, conexiones, reacciones, comentarios a terceros y cualquier mecanismo de engagement artificial.
-- Solo se marca una pieza como publicada después de que el usuario confirme manualmente su URL pública.
-- Una campaña futura requiere revisión humana de copy, imagen y comentario antes de marcarla como aprobada.
+- El copy, imagen y comentario de cada antimetrica son aprobados e inmutables.
+- Solo publica una pieza con estado `approved` y sin registro previo.
+- El unico canal de LinkedIn permitido es la API oficial con OAuth de miembro y permisos aprobados para esta aplicacion.
+- Quedan prohibidos browser automation, scraping, mensajes, conexiones, reacciones o comentarios a publicaciones de terceros.
+- La publicacion se bloquea hasta que `campaign.enabled` y `LINKEDIN_AUTOMATION_APPROVED` sean verdaderos.
+- Tras crear el post se registra su URN antes de crear el comentario. Si el comentario falla, la campana queda bloqueada para impedir duplicados.
+- Ningun secreto se guarda, imprime o confirma en Git.

@@ -1,19 +1,26 @@
-name: Prepare daily LinkedIn publication
+name: Publish daily LinkedIn antimetrica
 
 on:
   schedule:
+    # Both UTC hours cover 10:00 Europe/Paris across daylight-saving changes.
     - cron: '0 8,9 * * *'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview only; never call LinkedIn'
+        type: boolean
+        required: false
+        default: true
 
 permissions:
   contents: write
 
 concurrency:
-  group: linkedin-antimetricas-preparation
+  group: linkedin-antimetricas-publication
   cancel-in-progress: false
 
 jobs:
-  prepare:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,13 +30,20 @@ jobs:
       - name: Run tests
         working-directory: linkedin-robot
         run: npm run check
-      - name: Prepare manual publication
+      - name: Publish or preview
         working-directory: linkedin-robot
-        run: node src/run-daily.js
-      - name: Save preview
+        env:
+          LINKEDIN_AUTOMATION_APPROVED: ${{ secrets.LINKEDIN_AUTOMATION_APPROVED }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+          LINKEDIN_TOKEN_EXPIRES_AT: ${{ secrets.LINKEDIN_TOKEN_EXPIRES_AT }}
+          LINKEDIN_API_VERSION: ${{ secrets.LINKEDIN_API_VERSION }}
+        run: node src/run-daily.js ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Save publication state
+        if: always()
         run: |
-          git config user.name "linkedin-companion[bot]"
-          git config user.email "linkedin-companion[bot]@users.noreply.github.com"
-          git add linkedin-robot/state/today-preview.md
-          git diff --cached --quiet || git commit -m "chore: prepare daily LinkedIn publication"
+          git config user.name "linkedin-robot[bot]"
+          git config user.email "linkedin-robot[bot]@users.noreply.github.com"
+          git add linkedin-robot/state/publication-log.json
+          git diff --cached --quiet || git commit -m "chore: record LinkedIn publication"
           git push

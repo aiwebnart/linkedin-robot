@@ -1,45 +1,40 @@
-# Asistente de publicaciones LinkedIn — Antimétricas
+# Robot LinkedIn - Antimetricas
 
-Este repositorio público prepara diariamente una de las 17 piezas aprobadas de la serie Antimétricas: imagen, copy y primer comentario con enlace al ensayo maestro. **No publica en LinkedIn ni usa credenciales de LinkedIn.**
+Publica en el perfil personal una antimetrica diaria a las 10:00 Europe/Paris: imagen, copy aprobado y primer comentario preaprobado con enlace al ensayo maestro.
 
-## Por qué es manual
+## Limites de uso
 
-LinkedIn ofrece permisos técnicos para publicar mediante su API, pero sus [API Terms of Use](https://www.linkedin.com/legal/l/api-terms-of-use) prohíben usar las APIs para automatizar publicaciones. LinkedIn también prohíbe bots, extensiones y automatizaciones de navegador. Por ello este proyecto limita su función a preparar contenido y registrar confirmaciones manuales.
+El robot usa exclusivamente la API oficial de LinkedIn con autorizacion OAuth del titular. No usa navegador automatizado, scraping, mensajes, conexiones, reacciones, lectura de perfiles ni engagement artificial. La aplicacion debe obtener los permisos que LinkedIn apruebe para su caso de uso: `w_member_social` para publicar y `w_member_social_feed` para crear el comentario. La API documenta la gestion de posts y comentarios en perfiles individuales. Consulta [Profile Management](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/community-management-overview?view=li-lms-2026-05) y [Comments API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/comments-api?tabs=http&view=li-lms-2026-01).
 
-Permitido por este proyecto:
+## Activacion segura
 
-- Preparar contenido propio, aprobado y público.
-- Publicar manualmente desde la interfaz nativa de LinkedIn.
-- Llevar un registro local y público de qué pieza ya fue publicada.
+1. Registra la aplicacion en el Developer Portal y solicita los productos/permisos indicados por LinkedIn.
+2. Completa OAuth para tu perfil personal y guarda los valores como GitHub Actions secrets, nunca en archivos:
+   - `LINKEDIN_AUTOMATION_APPROVED` = `true`
+   - `LINKEDIN_ACCESS_TOKEN`
+   - `LINKEDIN_PERSON_URN`
+   - `LINKEDIN_TOKEN_EXPIRES_AT`
+   - `LINKEDIN_API_VERSION`
+3. Ejecuta el workflow manualmente con `dry_run=true`. No realiza llamadas a LinkedIn.
+4. Haz una prueba controlada con `dry_run=false` y una unica pieza de prueba aprobada.
+5. Solo despues cambia `config/campaign.json` a `"enabled": true` y confirma ese cambio en GitHub.
 
-No permitido:
+## Proceso diario
 
-- Llamadas a la API de LinkedIn, browser automation o scraping.
-- Publicar, comentar, reaccionar, seguir, conectar o enviar mensajes automáticamente.
-- Recoger perfiles, datos de terceros o crear engagement artificial.
+1. El workflow se inicia en las dos horas UTC que cubren las 10:00 de Paris y el script descarta la hora incorrecta.
+2. Selecciona la primera pieza aprobada no publicada.
+3. Valida `post.md`, `image.png` y `comment.md`.
+4. Sube la imagen, crea el post y registra el URN recibido.
+5. Crea de inmediato el primer comentario preaprobado usando el URN del post.
+6. Guarda el estado en Git. Si el comentario falla, bloquea la serie para revision: nunca repite un post cuya creacion sea ambigua.
 
-Consulta siempre las reglas vigentes: [actividad automatizada](https://www.linkedin.com/help/linkedin/answer/a1341543) y [límites de API](https://learn.microsoft.com/en-us/linkedin/shared/api-guide/concepts/rate-limits).
-
-## Operación diaria
-
-1. El workflow prepara `state/today-preview.md` con la siguiente pieza pendiente.
-2. Abre el archivo, sube manualmente la imagen y pega el copy en LinkedIn.
-3. Publica el post y pega el contenido de `comment.md` como primer comentario.
-4. Copia la URL pública del post y ejecuta:
-
-```powershell
-node src/mark-published.js --id 01 --url "https://www.linkedin.com/posts/..."
-```
-
-5. Confirma el cambio en GitHub. La siguiente ejecución preparará la pieza siguiente.
+No existe en la API publica una operacion documentada para fijar comentarios; ese paso queda manual si deseas fijarlo.
 
 ## Desarrollo
 
-Requiere Node.js 20 o superior.
-
 ```powershell
 npm run check
-npm run prepare
+npm run dry-run
 ```
 
-El workflow se ejecuta cada día y no requiere secretos. Las 17 carpetas de `content/antimetricas` contienen `post.md`, `image.png` y `comment.md`.
+Las 17 carpetas en `content/antimetricas` contienen `post.md`, `image.png` y `comment.md`.

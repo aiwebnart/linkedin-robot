@@ -1,9 +1,7 @@
 # Contrato del orquestador
 
-Entrada: campaña, registro de publicaciones y par de archivos de la siguiente pieza aprobada.
+Entrada: configuracion de campana, registro de publicaciones y los tres archivos aprobados de la siguiente pieza: post.md, image.png y comment.md.
 
-Orden obligatorio: catálogo → preflight → comentario → publicación de imagen y post → comentario → auditoría.
+Orden obligatorio: catalogo -> preflight -> cargar imagen -> crear post -> persistir URN -> crear primer comentario -> auditoria.
 
-Salidas: registro `published` con URNs de post, comentario e imagen, o fallo explícito sin publicación duplicada.
-
-Detener el flujo si faltan archivos, autorización, enlace maestro, comentario válido o ID de post. Nunca sustituir contenido aprobado ni continuar tras una respuesta ambigua.
+Solo publica si la campana esta habilitada, existe autorizacion de API aprobada y el token esta vigente. Si el post se crea pero el comentario falla, conserva el estado `post_created`, bloquea el siguiente ciclo y exige revision humana. Nunca reintenta un post con resultado ambiguo.
