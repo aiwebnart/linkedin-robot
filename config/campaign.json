@@ -91,7 +91,7 @@
                       "status":  "approved"
                   }
               ],
-    "enabled":  false,
+    "enabled":  true,
     "requiredScopes":  [
                            "w_member_social",
                            "w_member_social_feed"
