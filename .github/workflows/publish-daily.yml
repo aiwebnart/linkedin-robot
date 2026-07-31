@@ -28,10 +28,8 @@ jobs:
         with:
           node-version: 24
       - name: Run tests
-        working-directory: linkedin-robot
         run: npm run check
       - name: Publish or preview
-        working-directory: linkedin-robot
         env:
           LINKEDIN_AUTOMATION_APPROVED: ${{ secrets.LINKEDIN_AUTOMATION_APPROVED }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
@@ -44,6 +42,6 @@ jobs:
         run: |
           git config user.name "linkedin-robot[bot]"
           git config user.email "linkedin-robot[bot]@users.noreply.github.com"
-          git add linkedin-robot/state/publication-log.json
+          git add state/publication-log.json
           git diff --cached --quiet || git commit -m "chore: record LinkedIn publication"
           git push
