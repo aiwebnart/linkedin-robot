@@ -18,7 +18,7 @@ No se realizará ninguna publicación ni prueba real en LinkedIn sin autorizaci�
 - El workflow `.github/workflows/publish-daily.yml` está corregido para la estructura real del repositorio y ya está publicado en GitHub.
 - El workflow recibe los valores sensibles exclusivamente mediante GitHub Secrets. No se registran secretos ni valores secretos en este documento ni en Git.
 - El workflow manual con `dry_run=true` terminó correctamente en GitHub Actions el 2026-07-31. No realizó llamadas de publicación a LinkedIn.
-- La campaña continúa desactivada (`config/campaign.json` tiene `enabled: false`) y el registro de publicaciones está vacío. No se ha publicado ninguna pieza mediante el robot.
+- Rodrigo autorizó una única prueba controlada de la antimétrica 01. La campaña está habilitada únicamente para permitir esa ejecución manual; el registro de publicaciones sigue vacío.
 - La ejecución mostró una advertencia informativa de GitHub sobre Node.js 20 usado internamente por acciones oficiales. La ejecución fue correcta; no es un error de publicación ni requiere cambiar nada ahora.
 
 ## Bloqueos de seguridad activos
