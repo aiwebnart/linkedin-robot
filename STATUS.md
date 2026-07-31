@@ -14,7 +14,7 @@ No se realizará ninguna publicación ni prueba real en LinkedIn hasta completar
 
 ## Estado actual
 
-- El proyecto es un repositorio Git local en esta carpeta, pero todavía no tiene remoto configurado; por tanto, aún no está conectado a un repositorio de GitHub.
+- El proyecto está conectado al repositorio privado `aiwebnart/linkedin-robot` mediante el remoto `origin`. El primer `push` está pendiente de autenticación de GitHub.
 - Existe un workflow en `.github/workflows/publish-daily.yml`, pero necesita ajuste antes de subirlo: como este repositorio ya es `linkedin-robot`, sus rutas no deben anteponer `linkedin-robot/`.
 - El workflow está pensado para recibir los valores sensibles mediante GitHub Secrets. No se registran secretos en este documento ni en Git.
 - La campaña está desactivada (`config/campaign.json` tiene `enabled: false`) y el registro de publicaciones está vacío. No se ha publicado ninguna pieza mediante el robot.
@@ -22,7 +22,7 @@ No se realizará ninguna publicación ni prueba real en LinkedIn hasta completar
 
 ## Orden obligatorio a partir de ahora
 
-1. Crear o elegir el repositorio privado de GitHub para `linkedin-robot` y conectar el remoto.
+1. Autenticar Git en GitHub y completar el primer `push` al repositorio privado ya creado.
 2. Corregir y subir el workflow de GitHub Actions.
 3. Añadir en GitHub Secrets, sin copiarlos a archivos versionados:
    - `LINKEDIN_AUTOMATION_APPROVED` (mantener `false` durante la validación)
