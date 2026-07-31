@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "check": "node --test --test-concurrency=1",
-    "dry-run": "node src/run-daily.js --dry-run"
+    "dry-run": "node --env-file=.env src/run-daily.js --dry-run"
   },
   "engines": { "node": ">=20" }
 }
