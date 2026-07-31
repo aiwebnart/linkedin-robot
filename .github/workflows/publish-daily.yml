@@ -36,7 +36,7 @@ jobs:
           LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
           LINKEDIN_TOKEN_EXPIRES_AT: ${{ secrets.LINKEDIN_TOKEN_EXPIRES_AT }}
           LINKEDIN_API_VERSION: ${{ secrets.LINKEDIN_API_VERSION }}
-        run: node src/run-daily.js ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: node src/run-daily.js ${{ inputs.dry_run && '--dry-run' || github.event_name == 'workflow_dispatch' && '--force' || '' }}
       - name: Save publication state
         if: always()
         run: |
