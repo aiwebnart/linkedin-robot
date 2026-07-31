@@ -10,30 +10,26 @@ Publicar una antimétrica aprobada al día, a las 10:00 de Europa/París, en el 
 
 GitHub es el entorno de automatización. El archivo `.env` local sirve únicamente para preparación y comprobaciones locales; no sustituye a GitHub Actions ni contiene valores que deban subirse al repositorio.
 
-No se realizará ninguna publicación ni prueba real en LinkedIn hasta completar y validar primero la etapa de GitHub.
+No se realizará ninguna publicación ni prueba real en LinkedIn sin autorización explícita de Rodrigo después de completar el proceso seguro de GitHub.
 
 ## Estado actual
 
-- El proyecto está conectado al repositorio privado `aiwebnart/linkedin-robot` mediante el remoto `origin`. El primer `push` se ha completado correctamente.
-- Existe un workflow en `.github/workflows/publish-daily.yml`, pero necesita ajuste antes de subirlo: como este repositorio ya es `linkedin-robot`, sus rutas no deben anteponer `linkedin-robot/`.
-- El workflow recibe sus valores sensibles exclusivamente mediante GitHub Secrets. No se registran secretos en este documento ni en Git.
-- La campaña está desactivada (`config/campaign.json` tiene `enabled: false`) y el registro de publicaciones está vacío. No se ha publicado ninguna pieza mediante el robot.
-- La configuración OAuth se ha preparado localmente. El ensayo local y el workflow manual de GitHub con `dry_run=true` han terminado correctamente, sin llamadas de publicación a LinkedIn.
+- El repositorio privado `aiwebnart/linkedin-robot` está conectado al remoto `origin` y la rama `main` está subida a GitHub.
+- El workflow `.github/workflows/publish-daily.yml` está corregido para la estructura real del repositorio y ya está publicado en GitHub.
+- El workflow recibe los valores sensibles exclusivamente mediante GitHub Secrets. No se registran secretos ni valores secretos en este documento ni en Git.
+- El workflow manual con `dry_run=true` terminó correctamente en GitHub Actions el 2026-07-31. No realizó llamadas de publicación a LinkedIn.
+- La campaña continúa desactivada (`config/campaign.json` tiene `enabled: false`) y el registro de publicaciones está vacío. No se ha publicado ninguna pieza mediante el robot.
+- La ejecución mostró una advertencia informativa de GitHub sobre Node.js 20 usado internamente por acciones oficiales. La ejecución fue correcta; no es un error de publicación ni requiere cambiar nada ahora.
 
-## Orden obligatorio a partir de ahora
+## Bloqueos de seguridad activos
 
-1. Completado: el código está en GitHub y el workflow manual con `dry_run=true` ha finalizado correctamente.
-2. Corregir y subir el workflow de GitHub Actions.
-3. Añadir en GitHub Secrets, sin copiarlos a archivos versionados:
-   - `LINKEDIN_AUTOMATION_APPROVED` (mantener `false` durante la validación)
-   - `LINKEDIN_ACCESS_TOKEN`
-   - `LINKEDIN_PERSON_URN`
-   - `LINKEDIN_TOKEN_EXPIRES_AT`
-   - `LINKEDIN_API_VERSION`
-4. Ejecutar manualmente el workflow con `dry_run=true` y comprobar que finaliza correctamente. Esta ejecución no llama a LinkedIn.
-5. Solo con autorización explícita, preparar la prueba controlada de publicación: revisar una pieza, activar temporalmente los bloqueos requeridos y ejecutar el workflow manual con `dry_run=false`.
-6. Tras una prueba correcta y autorización explícita, activar `campaign.enabled` para el calendario diario.
+Una publicación real permanece bloqueada mientras:
+
+- `config/campaign.json` tenga `enabled: false`.
+- El Secret `LINKEDIN_AUTOMATION_APPROVED` no tenga el valor `true`.
+
+Por tanto, las ejecuciones programadas no pueden publicar mientras estos bloqueos sigan activos.
 
 ## Siguiente acción
 
-Preparar la conexión con GitHub. Antes de modificar LinkedIn o activar la campaña, debe existir un remoto de GitHub y el `dry-run` debe haber pasado dentro de GitHub Actions.
+No hay que realizar ninguna acción adicional en LinkedIn ahora. El próximo paso solo se hará con autorización explícita: preparar una prueba controlada de una única publicación mediante el workflow manual con `dry_run=false`. Antes de ello se revisarán de nuevo la pieza elegida y los bloqueos de seguridad.
