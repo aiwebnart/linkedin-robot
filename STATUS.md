@@ -32,4 +32,4 @@ Por tanto, las ejecuciones programadas no pueden publicar mientras estos bloqueo
 
 ## Siguiente acción
 
-No hay que realizar ninguna acción adicional en LinkedIn ahora. El próximo paso solo se hará con autorización explícita: preparar una prueba controlada de una única publicación mediante el workflow manual con `dry_run=false`. Antes de ello se revisarán de nuevo la pieza elegida y los bloqueos de seguridad.
+Ejecutar manualmente una única prueba con dry_run=false para la antimétrica 01. Al finalizar, volver a bloquear la automatización antes de permitir nuevas publicaciones.
