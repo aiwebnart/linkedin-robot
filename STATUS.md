@@ -1,35 +1,26 @@
 # Estado operativo — Robot LinkedIn: Antimétricas
 
-Actualizado: 2026-07-31
+Actualizado: 2026-08-08
 
 ## Objetivo
 
-Publicar una antimétrica aprobada al día, a las 10:00 de Europa/París, en el perfil personal de Rodrigo. La automatización solo puede usar la API oficial de LinkedIn y debe publicar el primer comentario aprobado inmediatamente después del post.
-
-## Principio de activación
-
-GitHub es el entorno de automatización. El archivo `.env` local sirve únicamente para preparación y comprobaciones locales; no sustituye a GitHub Actions ni contiene valores que deban subirse al repositorio.
-
-No se realizará ninguna publicación ni prueba real en LinkedIn sin autorización explícita de Rodrigo después de completar el proceso seguro de GitHub.
+Publicar una antimétrica aprobada al día alrededor de las 10:20 de Europa/París, mediante la API oficial de LinkedIn.
 
 ## Estado actual
 
-- El repositorio privado `aiwebnart/linkedin-robot` está conectado al remoto `origin` y la rama `main` está subida a GitHub.
-- El workflow `.github/workflows/publish-daily.yml` está corregido para la estructura real del repositorio y ya está publicado en GitHub.
-- El workflow recibe los valores sensibles exclusivamente mediante GitHub Secrets. No se registran secretos ni valores secretos en este documento ni en Git.
-- El workflow manual con `dry_run=true` terminó correctamente en GitHub Actions el 2026-07-31. No realizó llamadas de publicación a LinkedIn.
-- Rodrigo autorizó una segunda prueba controlada de la antimétrica 01 con el workflow corregido. La campaña está habilitada para esa ejecución manual y el registro de publicaciones sigue vacío.
-- La ejecución mostró una advertencia informativa de GitHub sobre Node.js 20 usado internamente por acciones oficiales. La ejecución fue correcta; no es un error de publicación ni requiere cambiar nada ahora.
+- El repositorio privado `aiwebnart/linkedin-robot` está sincronizado con este ordenador.
+- Node.js 24 está instalado y los tres tests pasan.
+- El workflow recibe sus valores sensibles exclusivamente mediante GitHub Secrets; `.env` permanece fuera de Git.
+- LinkedIn aceptó la creación de la antimétrica 01 el 2026-08-07 y devolvió un URN de post.
+- Rodrigo confirmó el 2026-08-08 que la publicación 01 es visible en LinkedIn.
+- El primer comentario automático falló con `403 ACCESS_DENIED` por falta de permiso para `partnerApiSocialActions.CREATE`.
+- El registro conserva la pieza 01 con estado `post_created`, por lo que el robot bloquea la pieza 02 para evitar duplicados.
+- La imagen asociada a la pieza 01 está `AVAILABLE` y pertenece al mismo miembro autenticado.
 
-## Bloqueos de seguridad activos
+## Horario
 
-Una publicación real permanece bloqueada mientras:
-
-- `config/campaign.json` tenga `enabled: false`.
-- El Secret `LINKEDIN_AUTOMATION_APPROVED` no tenga el valor `true`.
-
-Por tanto, las ejecuciones programadas no pueden publicar mientras estos bloqueos sigan activos.
+GitHub Actions se programa una sola vez al día a las 10:20 con `timezone: Europe/Paris`. Se evita el minuto 00, donde GitHub documenta mayor congestión, y se admite que la ejecución comience algunos minutos después. El script mantiene el límite de la hora 10 para impedir publicaciones demasiado tardías.
 
 ## Siguiente acción
 
-Ejecutar manualmente una única prueba con dry_run=false para la antimétrica 01. Al finalizar, volver a bloquear la automatización antes de permitir nuevas publicaciones.
+Resolver el estado de la pieza 01 y el comentario antes de permitir la publicación de la pieza 02. No debe eliminarse el registro `post_created` sin confirmar primero cómo se gestionará el comentario faltante.
