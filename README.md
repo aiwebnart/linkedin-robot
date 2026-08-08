@@ -1,6 +1,6 @@
 # Robot LinkedIn - Antimetricas
 
-Publica en el perfil personal una antimetrica diaria a las 10:00 Europe/Paris: imagen, copy aprobado y primer comentario preaprobado con enlace al ensayo maestro.
+Publica en el perfil personal una antimetrica diaria alrededor de las 10:20 Europe/Paris: imagen, copy aprobado y primer comentario preaprobado con enlace al ensayo maestro.
 
 ## Limites de uso
 
@@ -21,7 +21,7 @@ El robot usa exclusivamente la API oficial de LinkedIn con autorizacion OAuth de
 
 ## Proceso diario
 
-1. El workflow se inicia en las dos horas UTC que cubren las 10:00 de Paris y el script descarta la hora incorrecta.
+1. El workflow se programa una vez al dia a las 10:20 Europe/Paris. GitHub puede iniciarlo con algunos minutos de retraso.
 2. Selecciona la primera pieza aprobada no publicada.
 3. Valida `post.md`, `image.png` y `comment.md`.
 4. Sube la imagen, crea el post y registra el URN recibido.

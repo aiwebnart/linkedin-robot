@@ -2,8 +2,9 @@ name: Publish daily LinkedIn antimetrica
 
 on:
   schedule:
-    # Both UTC hours cover 10:00 Europe/Paris across daylight-saving changes.
-    - cron: '0 8,9 * * *'
+    # One daily run away from the top-of-hour congestion; GitHub may start it later.
+    - cron: '20 10 * * *'
+      timezone: 'Europe/Paris'
   workflow_dispatch:
     inputs:
       dry_run:
