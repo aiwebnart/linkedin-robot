@@ -17,7 +17,9 @@ async function ensure(response, label) {
   throw new Error(`${label} failed (${response.status}): ${details.slice(0, 500)}`);
 }
 
-export async function uploadImage({ token, owner, imagePath, fetchImpl = fetch }) {
+const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+export async function uploadImage({ token, owner, imagePath, processingDelayMs = 0, fetchImpl = fetch, waitImpl = wait }) {
   const init = await fetchImpl(`${apiRoot}/images?action=initializeUpload`, {
     method: 'POST', headers: headers(token), body: JSON.stringify({ initializeUploadRequest: { owner } })
   });
@@ -26,6 +28,7 @@ export async function uploadImage({ token, owner, imagePath, fetchImpl = fetch }
   const image = await readFile(imagePath);
   const upload = await fetchImpl(value.uploadUrl, { method: 'PUT', headers: { 'Content-Type': 'image/png' }, body: image });
   await ensure(upload, 'LinkedIn image upload');
+  if (processingDelayMs > 0) await waitImpl(processingDelayMs);
   return value.image;
 }
 
@@ -40,13 +43,4 @@ export async function createPost({ token, author, commentary, imageUrn, fetchImp
   const postUrn = response.headers.get('x-restli-id');
   if (!postUrn) throw new Error('LinkedIn created a post without returning x-restli-id; publication halted.');
   return postUrn;
-}
-
-export async function createComment({ token, actor, postUrn, text, fetchImpl = fetch }) {
-  const body = { actor, object: postUrn, message: { text } };
-  const response = await fetchImpl(`${apiRoot}/socialActions/${encodeURIComponent(postUrn)}/comments`, {
-    method: 'POST', headers: headers(token), body: JSON.stringify(body)
-  });
-  await ensure(response, 'LinkedIn first-comment creation');
-  return response.headers.get('x-restli-id') || null;
 }

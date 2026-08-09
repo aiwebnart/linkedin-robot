@@ -16,3 +16,12 @@ export function nextApprovedItem(campaign, log) {
 export function recordFor(log, itemId) {
   return log.records.find((record) => record.itemId === itemId);
 }
+
+export function isWithinPublicationWindow(date, { timezone, publishStartHour, publishEndHour }) {
+  const hour = Number(new Intl.DateTimeFormat('en-GB', {
+    timeZone: timezone,
+    hour: '2-digit',
+    hourCycle: 'h23'
+  }).format(date));
+  return hour >= publishStartHour && hour < publishEndHour;
+}
