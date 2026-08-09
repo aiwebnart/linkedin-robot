@@ -1,6 +1,6 @@
 # Estado operativo — Robot LinkedIn: Antimétricas
 
-Actualizado: 2026-08-08
+Actualizado: 2026-08-09
 
 ## Objetivo
 
@@ -8,19 +8,20 @@ Publicar una antimétrica aprobada al día alrededor de las 10:20 de Europa/Par�
 
 ## Estado actual
 
-- El repositorio privado `aiwebnart/linkedin-robot` está sincronizado con este ordenador.
-- Node.js 24 está instalado y los tres tests pasan.
-- El workflow recibe sus valores sensibles exclusivamente mediante GitHub Secrets; `.env` permanece fuera de Git.
-- LinkedIn aceptó la creación de la antimétrica 01 el 2026-08-07 y devolvió un URN de post.
+- El robot publica únicamente la imagen y el copy; se eliminaron todos los comentarios automáticos.
+- `comment.md` se conserva en cada pieza como comentario manual opcional y no condiciona la publicación.
+- LinkedIn aceptó la creación de la antimétrica 01 el 2026-08-07 y devolvió el URN `urn:li:share:7491414102670602240`.
 - Rodrigo confirmó el 2026-08-08 que la publicación 01 es visible en LinkedIn.
-- El primer comentario automático falló con `403 ACCESS_DENIED` por falta de permiso para `partnerApiSocialActions.CREATE`.
-- El registro conserva la pieza 01 con estado `post_created`, por lo que el robot bloquea la pieza 02 para evitar duplicados.
-- La imagen asociada a la pieza 01 está `AVAILABLE` y pertenece al mismo miembro autenticado.
+- La pieza 01 está registrada con estado `published`; el fallo histórico `403 ACCESS_DENIED` del comentario ya no bloquea la campaña.
+- El único scope requerido por la campaña es `w_member_social`.
+- La siguiente pieza aprobada no publicada es la 02, `tasa-de-delegacion-inversa`.
+- El control horario ya no exige la hora 10 exacta: acepta cualquier inicio entre las 10:00 y las 12:59 de Europe/Paris.
+- Después de subir una imagen, el robot espera 20 segundos antes de crear el post para permitir su procesamiento en LinkedIn.
 
 ## Horario
 
-GitHub Actions se programa una sola vez al día a las 10:20 con `timezone: Europe/Paris`. Se evita el minuto 00, donde GitHub documenta mayor congestión, y se admite que la ejecución comience algunos minutos después. El script mantiene el límite de la hora 10 para impedir publicaciones demasiado tardías.
+GitHub Actions se programa una sola vez al día a las 10:20 con `timezone: Europe/Paris`. Si GitHub retrasa el job, puede arrancar hasta las 12:59 sin ser descartado. A partir de las 13:00 no publica automáticamente; una ejecución manual autorizada puede usar `--force`.
 
 ## Siguiente acción
 
-Resolver el estado de la pieza 01 y el comentario antes de permitir la publicación de la pieza 02. No debe eliminarse el registro `post_created` sin confirmar primero cómo se gestionará el comentario faltante.
+La campaña queda lista para que el siguiente ciclo publique la pieza 02. Si se desea añadir su comentario, debe copiarse manualmente desde `content/antimetricas/02-tasa-de-delegacion-inversa/comment.md`.

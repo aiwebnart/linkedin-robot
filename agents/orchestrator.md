@@ -1,7 +1,7 @@
 # Contrato del orquestador
 
-Entrada: configuracion de campana, registro de publicaciones y los tres archivos aprobados de la siguiente pieza: post.md, image.png y comment.md.
+Entrada: configuracion de campana, registro de publicaciones y los dos archivos requeridos de la siguiente pieza: post.md e image.png. comment.md es material manual opcional.
 
-Orden obligatorio: catalogo -> preflight -> cargar imagen -> crear post -> persistir URN -> crear primer comentario -> auditoria.
+Orden obligatorio: catalogo -> preflight -> cargar imagen -> crear post -> persistir URN como published -> auditoria.
 
-Solo publica si la campana esta habilitada, existe autorizacion de API aprobada y el token esta vigente. Si el post se crea pero el comentario falla, conserva el estado `post_created`, bloquea el siguiente ciclo y exige revision humana. Nunca reintenta un post con resultado ambiguo.
+Solo publica si la campana esta habilitada, existe autorizacion de API aprobada y el token esta vigente. Nunca crea comentarios ni reintenta un post con resultado ambiguo.

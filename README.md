@@ -1,34 +1,32 @@
-# Robot LinkedIn - Antimetricas
+# Robot LinkedIn - Antimétricas
 
-Publica en el perfil personal una antimetrica diaria alrededor de las 10:20 Europe/Paris: imagen, copy aprobado y primer comentario preaprobado con enlace al ensayo maestro.
+Publica en el perfil personal una antimétrica diaria alrededor de las 10:20 Europe/Paris: imagen y copy aprobados. Cada `comment.md` se conserva únicamente como comentario manual opcional.
 
-## Limites de uso
+## Límites de uso
 
-El robot usa exclusivamente la API oficial de LinkedIn con autorizacion OAuth del titular. No usa navegador automatizado, scraping, mensajes, conexiones, reacciones, lectura de perfiles ni engagement artificial. La aplicacion debe obtener los permisos que LinkedIn apruebe para su caso de uso: `w_member_social` para publicar y `w_member_social_feed` para crear el comentario. La API documenta la gestion de posts y comentarios en perfiles individuales. Consulta [Profile Management](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/community-management-overview?view=li-lms-2026-05) y [Comments API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/comments-api?tabs=http&view=li-lms-2026-01).
+El robot usa exclusivamente la API oficial de LinkedIn con autorización OAuth del titular. No usa navegador automatizado, scraping, mensajes, conexiones, reacciones, lectura de perfiles, comentarios ni engagement artificial. La aplicación necesita `w_member_social` para publicar.
 
-## Activacion segura
+## Activación segura
 
-1. Registra la aplicacion en el Developer Portal y solicita los productos/permisos indicados por LinkedIn.
-2. Completa OAuth para tu perfil personal y guarda los valores como GitHub Actions secrets, nunca en archivos:
+1. Registra la aplicación en el Developer Portal y solicita el permiso de publicación indicado por LinkedIn.
+2. Completa OAuth para tu perfil personal y guarda estos valores como GitHub Actions secrets, nunca en archivos:
    - `LINKEDIN_AUTOMATION_APPROVED` = `true`
    - `LINKEDIN_ACCESS_TOKEN`
    - `LINKEDIN_PERSON_URN`
    - `LINKEDIN_TOKEN_EXPIRES_AT`
    - `LINKEDIN_API_VERSION`
 3. Ejecuta el workflow manualmente con `dry_run=true`. No realiza llamadas a LinkedIn.
-4. Haz una prueba controlada con `dry_run=false` y una unica pieza de prueba aprobada.
-5. Solo despues cambia `config/campaign.json` a `"enabled": true` y confirma ese cambio en GitHub.
+4. Haz una prueba controlada con `dry_run=false` y una única pieza de prueba aprobada.
+5. Solo después cambia `config/campaign.json` a `"enabled": true` y confirma ese cambio en GitHub.
 
 ## Proceso diario
 
-1. El workflow se programa una vez al dia a las 10:20 Europe/Paris. GitHub puede iniciarlo con algunos minutos de retraso.
+1. El workflow se programa una vez al día a las 10:20 Europe/Paris. El script acepta ejecuciones retrasadas entre las 10:00 y las 12:59; la ejecución manual puede usar `--force`.
 2. Selecciona la primera pieza aprobada no publicada.
-3. Valida `post.md`, `image.png` y `comment.md`.
-4. Sube la imagen, crea el post y registra el URN recibido.
-5. Crea de inmediato el primer comentario preaprobado usando el URN del post.
-6. Guarda el estado en Git. Si el comentario falla, bloquea la serie para revision: nunca repite un post cuya creacion sea ambigua.
-
-No existe en la API publica una operacion documentada para fijar comentarios; ese paso queda manual si deseas fijarlo.
+3. Valida `post.md` e `image.png`.
+4. Sube la imagen y espera 20 segundos para que LinkedIn termine de procesarla antes de crear el post.
+5. Crea el post y registra el URN con estado `published`.
+6. Si existe, muestra `comment.md` en el dry run como referencia; nunca lo publica automáticamente.
 
 ## Desarrollo
 
@@ -37,4 +35,4 @@ npm run check
 npm run dry-run
 ```
 
-Las 17 carpetas en `content/antimetricas` contienen `post.md`, `image.png` y `comment.md`.
+Las 17 carpetas en `content/antimetricas` contienen `post.md`, `image.png` y, actualmente, `comment.md` para uso manual opcional.

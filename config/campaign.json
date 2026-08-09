@@ -1,7 +1,9 @@
 {
     "campaign":  "antimetricas-2026",
     "timezone":  "Europe/Paris",
-    "publishHour":  10,
+    "publishStartHour":  10,
+    "publishEndHour":  13,
+    "imageProcessingDelaySeconds":  20,
     "mode":  "automatic",
     "masterEssayUrl":  "https://www.linkedin.com/pulse/antim%C3%A9tricas-lo-que-de-verdad-deber%C3%ADamos-aprender-kwpie/",
     "items":  [
@@ -93,7 +95,6 @@
               ],
     "enabled":  true,
     "requiredScopes":  [
-                           "w_member_social",
-                           "w_member_social_feed"
+                           "w_member_social"
                        ]
 }
