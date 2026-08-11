@@ -1,31 +1,31 @@
-﻿Hay un chiste de oficina en el que el jefe llega con un Lamborghini nuevo.
+Hay un chiste de oficina en el que el jefe llega con un Lamborghini nuevo. El empleado lo felicita y el jefe le responde que, si sigue esforzándose, el año siguiente podrá comprarse otro.
 
-El empleado lo felicita.
-
-Y el jefe le dice que, si sigue esforzándose, el año que viene podrá comprarse otro.
-
-Promesa motivacional por arriba. Beneficio real por otro lado.
-
-Con la IA pasa una versión menos brillante, pero igual de conocida.
-
-Le pides un análisis completo.
-
-La IA promete profundidad, verificación, estructura, criterio y hasta una pequeña ceremonia de excelencia profesional.
-
-Y te entrega un resumen con buena postura.
-
-Todo muy ambicioso. Todo muy seguro. Todo muy "eso no era lo que pedí".
-
-Las métricas aburridas dirían: "La respuesta cubrió 7 apartados." La antimétrica pregunta otra cosa: ¿entregó lo que prometió entregar?
+La promesa motivacional va por arriba y el beneficio real por otro lado. Con la IA ocurre una versión menos brillante, pero reconocible: le pides un análisis completo, promete profundidad, verificación, estructura y criterio, y entrega un resumen con buena postura.
 
 ANTIMÉTRICA 05/17: Brecha Promesa-Entrega.
 
-Cuando la IA dice que hará una cosa y entrega otra. No es que una respuesta parcial no sirva. A veces una primera versión tiene valor.
+Esta antimétrica aparece cuando existe una distancia apreciable entre lo que la IA afirma que proporcionará y lo que finalmente entrega. Una primera versión parcial puede tener valor si se presenta como tal. El problema comienza cuando el lenguaje anuncia una capacidad o un trabajo que el resultado no sostiene.
 
-El problema es cuando la narrativa de capacidad supera al trabajo real: dice que verificó y no muestra evidencia; dice que corrigió y el error sigue ahí; dice que hizo un análisis profundo y lo que hay es una descripción con zapatos limpios.
+La IA puede decir que verificó una afirmación sin mostrar evidencia, asegurar que corrigió un defecto que todavía está presente o calificar como “análisis profundo” una descripción superficial. La evaluación debe hacerse contra el encargo y el resultado observable, no contra el relato que la propia herramienta hace sobre su desempeño.
 
-Prometer y no cumplir, mil veces lo vi.
+Para comprobar la brecha, conviene comparar cada compromiso con una evidencia concreta: qué se verificó, qué cambió, qué partes se completaron y qué condiciones siguen pendientes.
+
+“Prometer y no cumplir, mil veces lo vi.”
 
 Versión oficina:
 
-"Te vendieron estrategia y te entregaron una diapositiva con entusiasmo."
+“Te vendieron estrategia y te entregaron una diapositiva con entusiasmo.”
+
+La distancia entre promesa y resultado puede recibir varios nombres:
+
+- Índice de sobrepromesa: la IA promete más de lo que puede sostener.
+
+- Tasa de incumplimiento: no entrega aquello que aceptó entregar.
+
+- Déficit de correspondencia: el resultado no coincide con el encargo.
+
+- Índice de promesa vacía: el compromiso verbal carece de respaldo operativo.
+
+- Brecha entre discurso y desempeño: la narrativa de capacidad supera la evidencia del trabajo.
+
+Cada término sitúa el problema en un punto diferente: la promesa, el compromiso, la correspondencia con el pedido, el respaldo operativo o la distancia general entre lo dicho y lo hecho.

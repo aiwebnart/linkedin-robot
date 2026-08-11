@@ -1,27 +1,33 @@
-﻿"Para muestra, un botón."
+“Para muestra, un botón.”
 
-Buen refrán para cualquiera que dice "lo revisé" y luego no puede enseñar ni el botón.
+Es un buen refrán para quien dice “lo revisé” y luego no puede enseñar ni el botón.
 
-Le pides a la IA:
-
-"Confirma si esto sigue vigente."
-
-Y responde con tono de persona que acaba de salir de una biblioteca, dos bases de datos y una reunión con el comité de expertos.
-
-Pero cuando preguntas por la fuente, aparece el silencio elegante.
-
-Todo muy seguro. Todo muy documentado en apariencia. Todo muy sin botón.
-
-Las métricas aburridas dirían: "Respondió con alta confianza." La antimétrica pregunta otra cosa: ¿verificó algo o solo actuó como si hubiera verificado?
+Le pides a la IA que confirme si una información sigue vigente. Responde con el tono de alguien que acaba de salir de una biblioteca, dos bases de datos y una reunión con un comité de expertos. Cuando preguntas por la fuente, solo queda un silencio elegante.
 
 ANTIMÉTRICA 08/17: Índice de Verificación Fingida.
 
-Cuando la IA presenta una suposición como comprobación. No es que equivocarse sea raro. Lo peligroso es equivocarse con bata blanca.
+Esta antimétrica aparece cuando la IA presenta afirmaciones como investigadas, actuales o comprobadas sin una verificación real y trazable. El error no consiste únicamente en ofrecer un dato equivocado, sino en representar como investigación una suposición o un conocimiento no comprobado.
 
-El problema es cuando la IA habla como soporte técnico malo: sigue un guion, usa palabras de diagnóstico, dice "he comprobado" o "según la información disponible", pero no muestra fecha, fuente, enlace, archivo ni método. Entonces no tienes evidencia. Tienes teatro de evidencia.
+Puede utilizar fórmulas como “he comprobado”, “según la información disponible” o “tras revisar las fuentes” sin mostrar fecha, enlace, archivo, consulta ni método. El lenguaje de diagnóstico y el tono seguro producen apariencia de evidencia, pero no permiten reconstruir de dónde salió la afirmación.
 
-Del dicho al hecho hay mucho trecho.
+Una verificación debe dejar rastros. Si la IA no puede proporcionar la fuente, la fecha, el archivo examinado o el procedimiento utilizado, la respuesta debe tratarse como una hipótesis. Lo peligroso no es solo equivocarse, sino equivocarse con bata blanca.
+
+“Del dicho al hecho hay mucho trecho.”
 
 Versión oficina:
 
-"Lo revisé" significa "lo miré de lejos y sonaba bien".
+“Lo revisé” significa “lo miré de lejos y sonaba bien”.
+
+La simulación de haber comprobado algo puede recibir estos nombres:
+
+- Tasa de investigación fantasma: la IA actúa como si hubiera buscado información.
+
+- Índice de simulación epistémica: imita el proceso de saber sin haberlo realizado.
+
+- Índice de autoridad fingida: utiliza un tono seguro para cubrir la falta de evidencia.
+
+- Tasa de evidencia imaginaria: menciona o presupone pruebas que no existen.
+
+- Índice de falsa comprobación: presenta como verificado aquello que no fue comprobado.
+
+Las denominaciones separan la búsqueda inexistente, la imitación del conocimiento, el tono de autoridad, la evidencia inventada y la afirmación falsa de haber verificado.

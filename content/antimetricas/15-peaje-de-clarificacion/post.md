@@ -1,27 +1,33 @@
-﻿"A buen entendedor, pocas palabras bastan."
+“A buen entendedor, pocas palabras bastan.”
 
-Y a mal asistente, a veces, le bastan muchas preguntas para no hacer nada.
+Y a un mal asistente, a veces, le bastan muchas preguntas para no hacer nada.
 
-Le pides a la IA:
-
-"Revisa el archivo y corrige los errores obvios."
-
-Y pregunta:
-
-"¿Quieres que revise el archivo? ¿Qué entiendes por errores? ¿Prefieres que corrija lo obvio? ¿Debo mantener el contenido?"
-
-Todo muy prudente. Todo muy participativo. Todo muy leer era una opción.
-
-Las métricas aburridas dirían: "La IA solicitó clarificaciones." La antimétrica pregunta otra cosa: ¿esas preguntas desbloquearon algo o solo te cobraron atención?
+Le pides a la IA que revise un archivo y corrija los errores obvios. Responde: “¿Quieres que revise el archivo? ¿Qué entiendes por errores? ¿Prefieres que corrija lo obvio? ¿Debo mantener el contenido?”. Las preguntas no descubren una ambigüedad relevante; trasladan al usuario el trabajo de leer el encargo.
 
 ANTIMÉTRICA 15/17: Peaje de Clarificación.
 
-Cuando la IA pregunta lo que podía resolver sola. No es que preguntar esté mal. Una buena pregunta evita un desastre.
+Esta antimétrica aparece cuando la IA formula preguntas que podía resolver examinando el contexto, inspeccionando los recursos disponibles o tomando una decisión razonable. Una buena pregunta evita un error o desbloquea un trabajo detenido. Una pregunta innecesaria consume atención sin modificar lo que podía hacerse.
 
-El problema es cuando pregunta por hábito, por pereza o por no mirar el contexto. Pregunta lo que ya dijiste, lo que está en el archivo, lo que se infiere sin riesgo o lo que podía proponer como supuesto razonable. Y de pronto tú no estás dirigiendo el trabajo: estás rellenando un formulario con modales.
+El peaje se presenta cuando pregunta por información ya proporcionada, solicita permiso para pasos evidentes o devuelve una microdecisión de bajo riesgo que podía asumir y declarar. La conversación se convierte entonces en un formulario educado.
 
-Preguntar también puede ser una forma de devolver trabajo.
+Para detectarlo, conviene pedir que distinga entre una duda bloqueante y una decisión razonable. Los supuestos de bajo riesgo pueden declararse y utilizarse; las preguntas deberían reservarse para aquello que alteraría materialmente la entrega.
+
+“Preguntar también puede ser una forma de devolver trabajo.”
 
 Versión oficina:
 
-"Te pregunto para confirmar que debo leer el correo."
+“Te pregunto para confirmar que debo leer el correo.”
+
+Las preguntas que cobran atención sin hacer avanzar el trabajo pueden recibir estos nombres:
+
+- Índice de pregunta ociosa: la pregunta no modifica ni desbloquea la tarea.
+
+- Tasa de interrogación innecesaria: pregunta por hábito y no por necesidad.
+
+- Déficit de iniciativa: no avanza aunque dispone de elementos suficientes.
+
+- Índice de dependencia decisional: necesita al usuario para cada microdecisión.
+
+- Tasa de preguntas perezosas: pregunta para evitar leer, mirar o inferir.
+
+Estas expresiones distinguen la falta de utilidad, el exceso de interrogación, la ausencia de iniciativa, la dependencia del usuario y la negativa a examinar el contexto.
