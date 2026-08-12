@@ -14,8 +14,6 @@ Antes de actuar, conviene separar expresamente lo que debe hacerse de lo que no 
 
 “Hacer caso no siempre es entender.”
 
-Versión oficina:
-
 “Hice exactamente lo que pediste, salvo lo que importaba.”
 
 Esta inversión puede describirse de varias maneras:
@@ -29,5 +27,3 @@ Esta inversión puede describirse de varias maneras:
 - Índice de desalineación inicial: el desvío aparece desde la primera acción.
 
 - Tasa de prioridad ignorada: la instrucción principal queda relegada frente a tareas menores.
-
-Los nombres permiten determinar si se invirtió el orden, se obedeció solo en apariencia, se perdió la intención, se empezó mal o se ignoró una prioridad concreta.

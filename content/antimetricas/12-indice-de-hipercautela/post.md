@@ -14,8 +14,6 @@ Para evaluarla, conviene declarar el nivel de riesgo, los límites de la acción
 
 “Quien no se arriesga, no pasa la mar.”
 
-Versión oficina:
-
 “Para cambiar una coma abrimos un comité de riesgos.”
 
 El exceso de prudencia puede adoptar varias formas:
@@ -29,5 +27,3 @@ El exceso de prudencia puede adoptar varias formas:
 - Sobrecarga de precaución: las advertencias pesan más que el trabajo solicitado.
 
 - Índice de cobardía operativa: la prudencia termina convertida en incapacidad de actuar.
-
-Estas expresiones permiten separar la fricción, la inhibición, la exageración del peligro, el peso de las advertencias y la parálisis operativa.

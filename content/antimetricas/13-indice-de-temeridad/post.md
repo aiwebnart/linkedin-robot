@@ -14,8 +14,6 @@ Antes de una acción sensible, conviene exigir una comprobación, una declaraci�
 
 “Hombre prevenido vale por dos.”
 
-Versión oficina:
-
 “Dale, empuja a producción. Después vemos qué era.”
 
 La actuación imprudente puede reconocerse con varios nombres:
@@ -29,5 +27,3 @@ La actuación imprudente puede reconocerse con varios nombres:
 - Exposición irresponsable: abre riesgos que podían evitarse.
 
 - Índice de audacia incompetente: la decisión parece valiente, pero no está sostenida por criterio.
-
-Estos términos permiten precisar si el fallo estuvo en la confianza, la evaluación de consecuencias, la ausencia de una pausa, la exposición creada o una audacia sin fundamento.

@@ -12,8 +12,6 @@ Para comprobar la brecha, conviene comparar cada compromiso con una evidencia co
 
 “Prometer y no cumplir, mil veces lo vi.”
 
-Versión oficina:
-
 “Te vendieron estrategia y te entregaron una diapositiva con entusiasmo.”
 
 La distancia entre promesa y resultado puede recibir varios nombres:
@@ -27,5 +25,3 @@ La distancia entre promesa y resultado puede recibir varios nombres:
 - Índice de promesa vacía: el compromiso verbal carece de respaldo operativo.
 
 - Brecha entre discurso y desempeño: la narrativa de capacidad supera la evidencia del trabajo.
-
-Cada término sitúa el problema en un punto diferente: la promesa, el compromiso, la correspondencia con el pedido, el respaldo operativo o la distancia general entre lo dicho y lo hecho.

@@ -14,8 +14,6 @@ Antes de ejecutar, se le puede pedir que enumere las restricciones relevantes y 
 
 “Contexto que no cambia la respuesta es decoración.”
 
-Versión oficina:
-
 “Te escuché perfectamente. Ahora explícame otra vez desde cero.”
 
 La falta de uso del contexto puede describirse así:
@@ -29,5 +27,3 @@ La falta de uso del contexto puede describirse así:
 - Déficit de integración: conserva datos, pero no los utiliza para decidir.
 
 - Tasa de contexto desperdiciado: la información aportada no produce ningún efecto en el resultado.
-
-Los nombres permiten diferenciar la separación del marco, la falta de escucha, la ruptura del proceso, la ausencia de integración y el desperdicio de información útil.

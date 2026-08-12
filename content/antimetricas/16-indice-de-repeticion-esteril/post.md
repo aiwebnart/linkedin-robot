@@ -14,8 +14,6 @@ Para comprobarlo, se puede pedir que cada versión declare qué cambió, qué pr
 
 “Machacar en hierro frío, tiempo y trabajo perdido.”
 
-Versión oficina:
-
 “Esta reunión pudo ser la reunión anterior.”
 
 La repetición sin avance puede adoptar distintas formas:
@@ -29,5 +27,3 @@ La repetición sin avance puede adoptar distintas formas:
 - Déficit de novedad: la nueva versión no incorpora una idea nueva.
 
 - Índice de creatividad simulada: parece crear mientras redistribuye el mismo contenido.
-
-Los nombres permiten separar el reciclaje formal, el atasco, la redundancia, la ausencia de novedad y la apariencia de creatividad.

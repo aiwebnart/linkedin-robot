@@ -14,8 +14,6 @@ Para evaluarla, hay que distinguir el tiempo de máquina del tiempo de atención
 
 “Si todo depende del ojo del amo, el amo sigue trabajando.”
 
-Versión oficina:
-
 “Está automatizado, pero avísame cada cinco minutos cómo va.”
 
 El costo de supervisar puede expresarse con varios nombres:
@@ -29,5 +27,3 @@ El costo de supervisar puede expresarse con varios nombres:
 - Ratio de vigilancia: muestra la necesidad de un supervisor constante.
 
 - Impuesto de presencia humana: la automatización exige que la persona continúe allí.
-
-Las expresiones distinguen el consumo de atención, la absorción, el tiempo ante la pantalla, la vigilancia y la imposibilidad de ausentarse.

@@ -14,8 +14,6 @@ Para detectarlo, hace falta definir desde el comienzo qué significa “terminad
 
 “Empezar no es terminar.”
 
-Versión oficina:
-
 “Lo tengo avanzadísimo: todavía no existe, pero avanzadísimo.”
 
 El abandono operativo puede adoptar distintas formas:
@@ -29,5 +27,3 @@ El abandono operativo puede adoptar distintas formas:
 - Tasa de compromiso incumplido: anuncia acciones que después no ejecuta.
 
 - Índice de tarea a medias: presenta un avance parcial como si fuera la entrega final.
-
-Estos nombres ayudan a distinguir entre abandonar, perder continuidad, quedarse corto, incumplir una promesa operativa o disfrazar una tarea incompleta de resultado.

@@ -14,8 +14,6 @@ La medida útil es el tiempo transcurrido hasta el primer resultado que puede ut
 
 “No hay atajo sin trabajo.”
 
-Versión oficina:
-
 “Era gratis. Solo me costó tres horas.”
 
 La demora hasta obtener valor puede nombrarse así:
@@ -29,5 +27,3 @@ La demora hasta obtener valor puede nombrarse así:
 - Tasa de ahorro engañoso: parece barato hasta que se contabiliza el tiempo.
 
 - Demora por dólar: el precio bajo oculta una factura temporal.
-
-Estos nombres permiten distinguir la espera por resultado, el costo del ahorro, la lentitud del proceso, la ilusión económica y la relación entre precio y demora.

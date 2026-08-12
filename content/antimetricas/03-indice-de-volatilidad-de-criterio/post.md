@@ -1,27 +1,31 @@
-﻿"Donde dije digo, digo Diego."
+“Donde dije digo, digo Diego.”
 
-Y si el refrán hubiera conocido ChatGPT, quizá habría añadido:
+Si el refrán hubiera conocido ChatGPT, quizá habría añadido: “Donde dije A, digo B si me lo preguntas con otras palabras”.
 
-"Donde dije A, digo B si me lo preguntas con otras palabras."
-
-Le preguntas a la IA qué opción conviene.
-
-Te recomienda A con seguridad de notario.
-
-Reformulas apenas la pregunta, sin cambiar el fondo, y ahora recomienda B con la misma cara de haberlo tenido clarísimo desde siempre.
-
-Todo muy razonado. Todo muy convincente. Todo muy según sople el prompt.
-
-Las métricas aburridas dirían: "Respondió dos veces con alta fluidez." La antimétrica pregunta otra cosa: ¿usó el mismo criterio o solo defendió la última frase que le pusiste delante?
+Le preguntas a la IA qué opción conviene y recomienda A con seguridad de notario. Cuando reformulas la pregunta sin cambiar el fondo, pasa a recomendar B y lo justifica con la misma convicción, como si ese hubiera sido siempre su criterio. Las dos respuestas parecen razonadas, pero la recomendación depende de la formulación del prompt más de lo que la IA reconoce.
 
 ANTIMÉTRICA 03/17: Índice de Volatilidad de Criterio.
 
-Cuando la IA cambia de criterio porque cambiaste la forma de preguntar. No es que ajustar una respuesta esté mal. A veces reformular mejora el análisis.
+Esta antimétrica describe los casos en los que consultas equivalentes producen recomendaciones incompatibles porque los criterios de evaluación, o la importancia concedida a cada uno, cambian sin una explicación expresa.
 
-El problema es cuando la IA no conserva un marco estable: hoy pesa el costo, mañana pesa la velocidad, pasado pesa el tono, y nunca avisa que cambió la balanza. Entonces no estás comparando opciones. Estás persiguiendo una veleta con traje de consultor.
+Una respuesta distinta no demuestra por sí sola que exista volatilidad. La reformulación puede aclarar el problema, aportar un matiz relevante o hacer visible información que antes no se había considerado. También es razonable modificar una conclusión cuando aparecen datos nuevos. El fallo se encuentra en otro lugar: los datos y las condiciones permanecen estables, pero la IA altera el marco con el que los interpreta.
 
-Donde dije digo, digo Diego.
+En una respuesta puede presentar el costo como la variable decisiva y, en la siguiente, dar prioridad a la velocidad. Si después se le pide que compare ambas recomendaciones, es posible que construya una explicación retrospectiva que haga parecer coherente el cambio. No reconoce que movió la balanza; adapta la justificación a la conclusión más reciente.
 
-Versión oficina:
+Una forma de comprobarlo consiste en definir los criterios antes de solicitar la recomendación y asignarles una ponderación. Después se puede formular la misma decisión de otra manera y comparar no solo las conclusiones, sino también las variables utilizadas y el peso que reciben. Si la recomendación cambia, la pregunta útil es: “¿Qué dato, criterio o ponderación hizo cambiar la conclusión?”.
 
-"Ayer era urgente. Hoy era mala idea. Mañana veremos quién lo pidió."
+Este fallo puede recibir distintos nombres. Cada término permite reconocer una de sus manifestaciones:
+
+- Volatilidad de criterio: describe la falta de estabilidad del marco empleado para decidir.
+
+- Índice de veletismo: destaca el cambio de dirección según cómo sople el prompt.
+
+- Tasa de contradicción: se concentra en la incompatibilidad entre las respuestas obtenidas.
+
+- Deriva de criterio: señala el desplazamiento del marco de evaluación sin una advertencia explícita.
+
+- Inestabilidad de respuesta: identifica el efecto observable cuando una reformulación equivalente no conserva el sentido de la respuesta anterior.
+
+- Índice de inconsistencia: describe una falta de continuidad lógica que se repite y empieza a formar un patrón.
+
+- Síndrome del “depende de cómo me lo preguntes”: expresa el problema en el lenguaje cotidiano de quien lo experimenta.

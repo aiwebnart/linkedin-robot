@@ -10,8 +10,6 @@ Puede pedir información que ya recibió, decisiones de bajo riesgo que podía a
 
 Para detectarlo, hay que separar las dudas verdaderamente bloqueantes de las que pueden resolverse leyendo, inspeccionando los recursos disponibles o declarando un supuesto razonable. La IA debería avanzar con lo que tiene y explicar solo aquello que impide continuar.
 
-Versión oficina:
-
 “Te lo delego para que me digas qué tengo que hacer yo.”
 
 Esta devolución del trabajo puede reconocerse con varios nombres:
@@ -25,5 +23,3 @@ Esta devolución del trabajo puede reconocerse con varios nombres:
 - Índice de escaqueo: la IA parece esquivar la responsabilidad de actuar.
 
 - Ratio de delegación al cliente: el supuesto asistente termina tratando al usuario como si fuera su asistente.
-
-Las distintas expresiones permiten precisar si regresó el entregable, la carga, el esfuerzo, la responsabilidad o la propia función de asistencia.

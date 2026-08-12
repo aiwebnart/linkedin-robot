@@ -14,8 +14,6 @@ Para detectarlo, conviene pedir que distinga entre una duda bloqueante y una dec
 
 “Preguntar también puede ser una forma de devolver trabajo.”
 
-Versión oficina:
-
 “Te pregunto para confirmar que debo leer el correo.”
 
 Las preguntas que cobran atención sin hacer avanzar el trabajo pueden recibir estos nombres:
@@ -29,5 +27,3 @@ Las preguntas que cobran atención sin hacer avanzar el trabajo pueden recibir e
 - Índice de dependencia decisional: necesita al usuario para cada microdecisión.
 
 - Tasa de preguntas perezosas: pregunta para evitar leer, mirar o inferir.
-
-Estas expresiones distinguen la falta de utilidad, el exceso de interrogación, la ausencia de iniciativa, la dependencia del usuario y la negativa a examinar el contexto.

@@ -14,8 +14,6 @@ Después de una disculpa conviene pedir tres cosas: el cambio concreto, una expl
 
 “Palabras sin obras se venden barato.”
 
-Versión oficina:
-
 “No volverá a pasar, versión 7.”
 
 Las disculpas sin reparación pueden distinguirse con estos nombres:
@@ -29,5 +27,3 @@ Las disculpas sin reparación pueden distinguirse con estos nombres:
 - Tasa de contrición estéril: reconoce el fallo sin modificar la conducta.
 
 - Índice de cortesía sin corrección: la amabilidad tapa la ausencia de una reparación.
-
-El vocabulario permite separar la repetición del error, el teatro de responsabilidad, el desequilibrio entre palabras y cambios, la falta de aprendizaje y el uso de la cortesía como cobertura.

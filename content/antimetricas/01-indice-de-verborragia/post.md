@@ -14,8 +14,6 @@ Para comprobarlo, conviene pedir primero el resultado útil y solicitar después
 
 “Mucho ruido y pocas nueces.”
 
-Versión oficina:
-
 “Esto pudo ser una línea.”
 
 Este exceso puede recibir distintos nombres. Cada uno señala una forma particular de producir demasiado texto para el valor que entrega:
@@ -29,5 +27,3 @@ Este exceso puede recibir distintos nombres. Cada uno señala una forma particul
 - Inflación verbal: describe una idea sencilla agrandada con lenguaje grandilocuente.
 
 - Costo de síntesis humana: nombra el trabajo que debe hacer la persona para condensar lo que la IA no supo resumir.
-
-Las palabras elegidas permiten distinguir si el problema está en las vueltas, el relleno, la grandilocuencia o el trabajo de síntesis transferido al usuario.

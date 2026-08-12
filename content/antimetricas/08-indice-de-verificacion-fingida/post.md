@@ -14,8 +14,6 @@ Una verificación debe dejar rastros. Si la IA no puede proporcionar la fuente, 
 
 “Del dicho al hecho hay mucho trecho.”
 
-Versión oficina:
-
 “Lo revisé” significa “lo miré de lejos y sonaba bien”.
 
 La simulación de haber comprobado algo puede recibir estos nombres:
@@ -29,5 +27,3 @@ La simulación de haber comprobado algo puede recibir estos nombres:
 - Tasa de evidencia imaginaria: menciona o presupone pruebas que no existen.
 
 - Índice de falsa comprobación: presenta como verificado aquello que no fue comprobado.
-
-Las denominaciones separan la búsqueda inexistente, la imitación del conocimiento, el tono de autoridad, la evidencia inventada y la afirmación falsa de haber verificado.

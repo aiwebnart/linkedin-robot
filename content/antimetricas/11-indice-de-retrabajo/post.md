@@ -12,8 +12,6 @@ La rapidez de generación puede celebrarse antes de calcular la deuda que deja. 
 
 “Machacar en hierro frío, tiempo y trabajo perdido.”
 
-Versión oficina:
-
 “Ya está listo. Solo falta rehacerlo.”
 
 El trabajo que reaparece después de la entrega puede recibir estos nombres:
@@ -27,5 +25,3 @@ El trabajo que reaparece después de la entrega puede recibir estos nombres:
 - Ratio de reprocesamiento: el flujo avanza principalmente a fuerza de rehacer.
 
 - Costo de reincidencia: el mismo defecto vuelve y cobra tiempo en cada ronda.
-
-Los nombres permiten localizar el problema en la repetición del trabajo, la deuda acumulada, el fracaso de la primera entrega, el funcionamiento del proceso o la reincidencia de un defecto.

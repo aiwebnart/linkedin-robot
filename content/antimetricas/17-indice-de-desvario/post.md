@@ -14,8 +14,6 @@ La revisión no debe limitarse a errores ortográficos o datos falsos. También 
 
 “No estaba mal escrito. Estaba en otra película.”
 
-Versión oficina:
-
 “No sé qué pasó, pero esto llegó con sombrero de copa.”
 
 La rareza inexplicable puede recibir varios nombres:
@@ -29,5 +27,3 @@ La rareza inexplicable puede recibir varios nombres:
 - Frecuencia de salidas aberrantes: registra resultados claramente desviados de la tarea.
 
 - Tasa de rareza injustificada: no existe una razón visible para la desviación.
-
-Estos términos ayudan a distinguir la sensación inicial de extrañeza, la ruptura del comportamiento esperado, la asociación incomprensible, la desviación manifiesta y la ausencia de una explicación.
