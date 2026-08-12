@@ -1,29 +1,29 @@
-﻿Hay una anécdota de oficina sobre un empleado que pide no ir a trabajar por enfermedad.
+Hay una anécdota de oficina sobre un empleado que pide no ir a trabajar por enfermedad. El detalle es que era domingo.
 
-El detalle es que era domingo.
+No es exactamente maldad ni exactamente torpeza. Es una rareza que obliga a leer dos veces porque algo no pertenece a la escena.
 
-No es exactamente maldad. No es exactamente torpeza. Es esa clase de rareza que te obliga a leer dos veces porque algo no pertenece a la escena.
-
-Con la IA pasa mucho.
-
-Le pides una respuesta normal, sobre un tema normal, con instrucciones normales.
-
-Y aparece una frase extraña, una asociación que nadie pidió, un cambio de tono inexplicable o una solución que parece venir de otra conversación.
-
-Todo muy escrito. Todo muy gramatical. Todo muy fuera de planeta.
-
-Las métricas aburridas dirían: "La respuesta no contiene errores sintácticos." La antimétrica pregunta otra cosa: ¿por qué esto se siente tan raro?
+Con la IA ocurre cuando le pides una respuesta normal, sobre un asunto normal y con instrucciones normales, pero aparece una asociación que nadie pidió, un cambio de tono inexplicable o una solución que parece proceder de otra conversación. El texto puede ser gramaticalmente correcto y, sin embargo, resultar ajeno a la tarea.
 
 ANTIMÉTRICA 17/17: Índice de Desvarío.
 
-Cuando la IA produce algo raro, absurdo o ajeno a la tarea. No es que toda rareza sea mala. A veces lo inesperado abre una buena idea.
+Esta antimétrica aparece cuando la IA produce decisiones, asociaciones o resultados extraños, absurdos o sin relación con el encargo. La rareza no es necesariamente un defecto: una asociación inesperada puede abrir una idea valiosa. El desvarío comienza cuando el elemento extraño no aporta, no se explica y rompe la coherencia del proceso.
 
-El problema es cuando la rareza no aporta, no ilumina y no se explica. No es creatividad. Es una salida torcida en medio de un proceso que parecía correcto. Y justo por eso conviene mirarla: porque lo raro suele ser la punta visible de una incoherencia más grande.
+La salida aberrante puede introducir una decisión sin relación con el problema, abandonar de pronto el tono establecido, inventar una conexión absurda o resolver una tarea diferente. Conviene examinarla porque lo raro puede ser la parte visible de una incoherencia mayor que también afecta elementos aparentemente normales.
 
-No estaba mal escrito.
+La revisión no debe limitarse a errores ortográficos o datos falsos. También debe buscar rupturas de continuidad, decisiones sin justificación y componentes que no pertenecen a la tarea.
 
-Estaba en otra película.
+“No estaba mal escrito. Estaba en otra película.”
 
-Versión oficina:
+“No sé qué pasó, pero esto llegó con sombrero de copa.”
 
-"No sé qué pasó, pero esto llegó con sombrero de copa."
+La rareza inexplicable puede recibir varios nombres:
+
+- Índice de extrañeza: algo se percibe fuera de lugar aunque todavía sea difícil explicar por qué.
+
+- Tasa de anomalía conductual: el comportamiento rompe el patrón esperado.
+
+- Índice de excentricidad algorítmica: la salida parece proceder de una asociación interna incomprensible.
+
+- Frecuencia de salidas aberrantes: registra resultados claramente desviados de la tarea.
+
+- Tasa de rareza injustificada: no existe una razón visible para la desviación.

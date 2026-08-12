@@ -1,23 +1,29 @@
-﻿"El ojo del amo engorda el caballo."
+“El ojo del amo engorda el caballo.”
 
-Gran refrán para el campo. Sospechoso modelo operativo para una automatización.
+Es un gran refrán para el campo y un modelo operativo sospechoso para una automatización.
 
-Le pides a la IA que avance sola.
-
-Pero tienes que mirar cada paso, corregir cada tramo, confirmar cada decisión, rescatar cada desvío y volver cada cinco minutos para ver si sigue respirando laboralmente.
-
-Todo muy asistido. Todo muy automático. Todo muy contigo al lado.
-
-Las métricas aburridas dirían: "Proceso ejecutado con IA." La antimétrica pregunta otra cosa: ¿cuánta atención humana consumió para llegar al resultado?
+Le pides a la IA que avance sola, pero necesitas mirar cada paso, corregir cada tramo, confirmar las decisiones, rescatar los desvíos y volver cada cinco minutos para comprobar si sigue respirando laboralmente. La tarea se ejecuta con IA, aunque tu atención permanece atada al proceso.
 
 ANTIMÉTRICA 10/17: Peaje de Supervisión.
 
-Cuando la IA cobra resultados con tu presencia. No es que supervisar esté mal. Supervisar es parte de dirigir.
+Esta antimétrica aparece cuando la IA necesita demasiada supervisión humana para producir un resultado útil. Supervisar forma parte de dirigir y no toda intervención representa un fallo. La cuestión es si el control libera trabajo o se convierte en una presencia constante sin la cual el proceso deja de avanzar.
 
-El problema es cuando la supervisión deja de ser control razonable y se vuelve niñera operativa. La IA avanza si miras, se desvía si no miras, pregunta si no miras y se queda en una esquina digital esperando que vuelvas a mirar.
+El peaje se paga mirando, corrigiendo, reiniciando, orientando o autorizando cada tramo. La herramienta puede reducir su propio tiempo de ejecución y, al mismo tiempo, absorber la atención que debía ahorrar. Una automatización que exige vigilancia permanente conserva buena parte del trabajo humano bajo otro nombre.
 
-Si todo depende del ojo del amo, el amo sigue trabajando.
+Para evaluarla, hay que distinguir el tiempo de máquina del tiempo de atención humana. El resultado no debería medirse solo por haber sido producido, sino también por la cantidad de presencia mental que exigió.
 
-Versión oficina:
+“Si todo depende del ojo del amo, el amo sigue trabajando.”
 
-"Está automatizado, pero avísame cada cinco minutos cómo va."
+“Está automatizado, pero avísame cada cinco minutos cómo va.”
+
+El costo de supervisar puede expresarse con varios nombres:
+
+- Atención humana por resultado: relaciona cada entrega con la presencia mental que consumió.
+
+- Índice de absorción: describe cuánto más atención captura la IA de lo esperado.
+
+- Costo de pantalla: el supuesto ahorro se paga observando el proceso.
+
+- Ratio de vigilancia: muestra la necesidad de un supervisor constante.
+
+- Impuesto de presencia humana: la automatización exige que la persona continúe allí.

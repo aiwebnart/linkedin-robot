@@ -1,27 +1,29 @@
-﻿"Quien mucho habla, mucho yerra."
+“Quien mucho habla, mucho yerra.”
 
-Y si el refrán hubiera conocido ChatGPT, quizá habría añadido:
+Si el refrán hubiera conocido ChatGPT, quizá habría añadido: “Y quien mucho responde, a veces tampoco ayuda”.
 
-"Y quien mucho responde, a veces tampoco ayuda."
-
-Le pides a la IA algo simple:
-
-"Dame una respuesta breve."
-
-Y te entrega introducción, contexto histórico, tres matices, cinco bullets, una conclusión amable y una frase final que suena a folleto de liderazgo.
-
-Todo muy correcto. Todo muy educado. Todo muy largo.
-
-Las métricas aburridas dirían: "Generó 900 palabras en 8 segundos." La antimétrica pregunta otra cosa: ¿cuántas de esas palabras servían realmente?
+Le pides a la IA una respuesta breve y recibes una introducción, contexto histórico, tres matices, cinco apartados, una conclusión amable y una frase final que suena a folleto de liderazgo. Todo puede estar correctamente escrito y, aun así, obligarte a buscar la única frase que necesitabas dentro de una respuesta desproporcionada.
 
 ANTIMÉTRICA 01/17: Índice de Verborragia.
 
-Cuando la IA habla mucho para aportar poco. No es que escribir largo esté mal. A veces hace falta.
+Esta antimétrica aparece cuando la IA necesita demasiadas palabras, vueltas o minutos para entregar una unidad de información realmente útil. La extensión no constituye por sí misma un defecto: algunos asuntos exigen desarrollo, contexto y cautela. El problema surge cuando la cantidad de texto no corresponde con la complejidad de la pregunta ni aumenta el valor de la respuesta.
 
-El problema es cuando la respuesta viene inflada: mucha vuelta, poco criterio; mucha explicación, poca decisión; mucho "es importante destacar", poca cosa destacable. Ahí aparece el verdadero costo: no lo paga la IA. Lo pagas tú leyendo, filtrando, recortando y buscando la frase útil como quien busca una llave en una maleta llena de bufandas.
+En esos casos, el costo no lo paga la IA. Lo paga quien debe leer, filtrar, recortar y reconstruir la síntesis que la herramienta no hizo. Es como buscar una llave en una maleta llena de bufandas.
 
-Mucho ruido y pocas nueces.
+Para comprobarlo, conviene pedir primero el resultado útil y solicitar después el contexto que haga falta. También se puede fijar una extensión, un formato o una decisión concreta y revisar cuánto contenido sobreviviría si se eliminara todo lo que no cambia la conclusión.
 
-Versión oficina:
+“Mucho ruido y pocas nueces.”
 
-"Esto pudo ser una línea."
+“Esto pudo ser una línea.”
+
+Este exceso puede recibir distintos nombres. Cada uno señala una forma particular de producir demasiado texto para el valor que entrega:
+
+- Tasa de enrollamiento: mide las vueltas que da la respuesta antes de llegar al punto.
+
+- Índice de rodeo: identifica el camino innecesariamente largo hacia una respuesta directa.
+
+- Ratio de paja: señala el relleno que ocupa espacio sin aportar información.
+
+- Inflación verbal: describe una idea sencilla agrandada con lenguaje grandilocuente.
+
+- Costo de síntesis humana: nombra el trabajo que debe hacer la persona para condensar lo que la IA no supo resumir.

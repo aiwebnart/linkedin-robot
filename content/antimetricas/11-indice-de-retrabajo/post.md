@@ -1,27 +1,27 @@
-﻿"El flojo trabaja dos veces."
+“El flojo trabaja dos veces.”
 
-El refrán no conocía la IA generativa, pero entendía perfectamente la primera entrega que vuelve con tarea escondida.
+El refrán no conocía la IA generativa, pero entendía perfectamente una primera entrega que vuelve con tarea escondida.
 
-Le pides a la IA una versión usable.
-
-La entrega rápido.
-
-Muy rápido.
-
-Tan rápido que después tú tienes que corregir la estructura, rehacer el argumento, ajustar el tono, quitar repeticiones, revisar datos y preguntarte si no habría sido más corto empezar desde cero.
-
-Todo muy veloz. Todo muy abundante. Todo muy "final_final_ahora_sí".
-
-Las métricas aburridas dirían: "Generó una primera versión en 40 segundos." La antimétrica pregunta otra cosa: ¿cuánto tuviste que rehacer después?
+Le pides una versión utilizable y la recibes muy rápido. Después debes corregir la estructura, rehacer el argumento, ajustar el tono, eliminar repeticiones, revisar los datos y preguntarte si no habría sido más corto empezar desde cero. La velocidad inicial solo desplazó el trabajo hacia la etapa siguiente.
 
 ANTIMÉTRICA 11/17: Índice de Retrabajo.
 
-Cuando la IA produce rápido, pero obliga a reconstruir demasiado. No es que una primera versión deba ser perfecta. Casi nada bueno nace perfecto.
+Esta antimétrica aparece cuando una parte significativa del contenido generado debe repetirse, corregirse o reconstruirse antes de resultar aceptable. Una primera versión no tiene que ser perfecta, pero debería reducir el trabajo pendiente en lugar de esconderlo.
 
-El problema es cuando la velocidad se celebra antes de mirar la deuda que dejó. Una respuesta rápida puede ser un ahorro, o puede ser una factura diferida con formato de borrador.
+La rapidez de generación puede celebrarse antes de calcular la deuda que deja. Una respuesta producida en cuarenta segundos puede ahorrar tiempo o convertirse en una factura diferida con formato de borrador. Para distinguir ambas situaciones, hay que observar cuánto trabajo permanece después de la primera entrega y cuánto del defecto reaparece en las siguientes.
 
-Machacar en hierro frío, tiempo y trabajo perdido.
+“Machacar en hierro frío, tiempo y trabajo perdido.”
 
-Versión oficina:
+“Ya está listo. Solo falta rehacerlo.”
 
-"Ya está listo. Solo falta rehacerlo."
+El trabajo que reaparece después de la entrega puede recibir estos nombres:
+
+- Tasa de rehacer: obliga a producir otra vez lo que ya debía estar resuelto.
+
+- Deuda de corrección: cada entrega deja reparaciones pendientes para la persona.
+
+- Índice de primera entrega fallida: el primer resultado rara vez puede utilizarse.
+
+- Ratio de reprocesamiento: el flujo avanza principalmente a fuerza de rehacer.
+
+- Costo de reincidencia: el mismo defecto vuelve y cobra tiempo en cada ronda.

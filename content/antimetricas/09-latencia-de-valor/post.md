@@ -1,25 +1,29 @@
-﻿"Lo barato sale caro."
+“Lo barato sale caro.”
 
-Y a veces sale caro en una moneda que no aparece en la factura: tu mañana.
+A veces sale caro en una moneda que no aparece en la factura: tu mañana.
 
-Le pides a la IA una ayuda rápida.
-
-La herramienta cuesta poco, responde rápido, no se queja, no pide café y parece una ganga.
-
-Pero necesitas una ronda, otra ronda, otra corrección, una aclaración, una versión nueva, una revisión manual y cinco minutos mirando la pantalla con cara de "esto ya lo habría hecho yo".
-
-Todo muy económico. Todo muy moderno. Todo muy tarde para ser útil.
-
-Las métricas aburridas dirían: "Costo por respuesta: muy bajo." La antimétrica pregunta otra cosa: ¿cuánto tardó en aparecer algo que realmente pudieras usar?
+Le pides a la IA una ayuda rápida. La herramienta cuesta poco, responde enseguida, no se queja, no pide café y parece una ganga. Sin embargo, el resultado necesita otra ronda, una corrección, una aclaración, una versión nueva y una revisión manual. Al final llevas varios minutos mirando la pantalla con la sensación de que ya lo habrías hecho por tu cuenta.
 
 ANTIMÉTRICA 09/17: Latencia de Valor.
 
-Cuando la IA es barata, pero lenta para producir valor. No es que el precio no importe. Importa mucho.
+Esta antimétrica aparece cuando pasa demasiado tiempo antes de que el uso de IA produzca un resultado realmente aprovechable. El precio y la velocidad de generación pueden ser bajos mientras el trayecto completo hasta una entrega utilizable sigue siendo costoso.
 
-El problema es cuando solo miras el costo de la herramienta y no el costo del trayecto. Si para ahorrar dinero gastas atención, rondas, revisión y paciencia, quizá no compraste productividad. Compraste una fila más bonita.
+La demora incluye las rondas, las esperas, las correcciones, el tiempo de lectura y las decisiones que la persona debe aportar. Si solo se contabiliza el precio de la herramienta, ese costo temporal desaparece del balance y una experiencia lenta puede presentarse como productividad.
 
-No hay atajo sin trabajo.
+La medida útil es el tiempo transcurrido hasta el primer resultado que puede utilizarse, no el tiempo que tarda en aparecer una respuesta cualquiera. También conviene separar el tiempo de procesamiento del tiempo humano invertido en conseguir que el resultado sirva.
 
-Versión oficina:
+“No hay atajo sin trabajo.”
 
-"Era gratis. Solo me costó tres horas."
+“Era gratis. Solo me costó tres horas.”
+
+La demora hasta obtener valor puede nombrarse así:
+
+- Tiempo por unidad de valor: señala cuánto tarda en aparecer cada resultado útil.
+
+- Costo temporal del ahorro: muestra cuándo el ahorro económico se compensa con espera.
+
+- Índice de lentitud productiva: hay actividad, pero poco avance aprovechable.
+
+- Tasa de ahorro engañoso: parece barato hasta que se contabiliza el tiempo.
+
+- Demora por dólar: el precio bajo oculta una factura temporal.

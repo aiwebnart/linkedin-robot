@@ -1,25 +1,29 @@
-﻿"Amarro la vaca donde diga el dueño, aunque se ahorque."
+“Amarro la vaca donde diga el dueño, aunque se ahorque.”
 
-Hay obediencias que deberían venir con manual de daños colaterales.
+Hay obediencias que deberían venir con un manual de daños colaterales.
 
-Le dices a la IA:
-
-"Corrige solo la ortografía. No cambies el tono."
-
-Y la IA corrige la ortografía, sí, pero de paso cambia el tono, reordena el texto, suaviza la frase fuerte y convierte tu voz en un correo de recursos humanos.
-
-Todo muy obediente. Todo muy aplicado. Todo muy contrario a lo importante.
-
-Las métricas aburridas dirían: "Ejecutó una corrección textual." La antimétrica pregunta otra cosa: ¿obedeció la instrucción o traicionó la intención?
+Le dices a la IA: “Corrige solo la ortografía. No cambies el tono”. Corrige la ortografía, pero también reorganiza el texto, suaviza la frase principal y convierte tu voz en un correo de recursos humanos. Ha cumplido una parte visible del encargo a costa de la restricción que debía proteger.
 
 ANTIMÉTRICA 07/17: Índice de Obediencia Inversa.
 
-Cuando la IA empieza justo por lo que pediste evitar. No es que seguir instrucciones esté mal. El punto es que una instrucción tiene letra y tiene sentido.
+Esta antimétrica aparece cuando la IA empieza por aquello que el usuario señaló como secundario, innecesario o expresamente indeseado. Una instrucción tiene una acción, pero también prioridades, límites y una intención general. Cumplir la acción ignorando esos elementos no equivale a comprender el pedido.
 
-El problema es cuando la IA se agarra de una parte cómoda del pedido y pisa la restricción principal. Le dices "no toques esto" y empieza por ahí. Le dices "mantén el estilo" y lo pule hasta dejarlo irreconocible. Le dices "hazlo breve" y entrega una mudanza completa de párrafos.
+La IA puede aferrarse a la parte más cómoda del encargo y pisar la restricción principal: cambia lo que debía conservar, reescribe cuando solo debía corregir o amplía cuando se pidió brevedad. El resultado puede parecer trabajado y, sin embargo, dirigirse en sentido contrario a lo importante.
 
-Hacer caso no siempre es entender.
+Antes de actuar, conviene separar expresamente lo que debe hacerse de lo que no debe tocarse. En tareas sensibles también resulta útil pedir que identifique las restricciones y explique cómo las respetará.
 
-Versión oficina:
+“Hacer caso no siempre es entender.”
 
-"Hice exactamente lo que pediste, salvo lo que importaba."
+“Hice exactamente lo que pediste, salvo lo que importaba.”
+
+Esta inversión puede describirse de varias maneras:
+
+- Tasa de inversión de prioridades: coloca primero lo que debía ocupar un lugar secundario.
+
+- Índice de resistencia pasiva: parece obedecer mientras actúa contra la intención del encargo.
+
+- Deriva de intención: el resultado se aleja progresivamente de lo solicitado.
+
+- Índice de desalineación inicial: el desvío aparece desde la primera acción.
+
+- Tasa de prioridad ignorada: la instrucción principal queda relegada frente a tareas menores.

@@ -1,25 +1,29 @@
-﻿"Vuelva usted mañana."
+“Vuelva usted mañana.”
 
-Larra lo escribió para la burocracia, pero hay respuestas de IA que parecen haber hecho prácticas en esa ventanilla.
+Larra lo escribió para la burocracia, pero algunas respuestas de IA parecen haber hecho prácticas en esa ventanilla.
 
-Le pides:
-
-"Hazme el documento completo."
-
-Y la IA arranca con entusiasmo: esquema, introducción, promesa de desarrollo, tono servicial, una frase que dice "a continuación" y luego nada que realmente cierre la tarea.
-
-Todo muy empezado. Todo muy encaminado. Todo muy pendiente.
-
-Las métricas aburridas dirían: "Inició la tarea correctamente." La antimétrica pregunta otra cosa: ¿la terminó o solo abrió un trámite?
+Le pides un documento completo y la IA empieza con entusiasmo: prepara un esquema, redacta una introducción, promete el desarrollo y anuncia que “a continuación” terminará el trabajo. La continuación nunca llega y lo que debía ser una entrega queda reducido a la apariencia de haber empezado.
 
 ANTIMÉTRICA 04/17: Índice de Abandono Operativo.
 
-Cuando la IA acepta una tarea, parece empezar y se queda a mitad del camino. No es que todo deba salir perfecto en una ronda. A veces hay procesos largos.
+Esta antimétrica aparece cuando la IA acepta una tarea y comienza a resolverla, pero se detiene antes de alcanzar el resultado solicitado. No exige que todo sea perfecto en una sola ronda ni desconoce que algunos procesos necesitan varias etapas. Examina si la herramienta llegó al punto que ambas partes estaban tratando como final.
 
-El problema es cuando confunde avance con cumplimiento. Te da un esquema cuando pediste una entrega, una intención cuando pediste un resultado, una promesa cuando pediste cierre. Y tú quedas como el ciudadano de la ventanilla: con papeles, número de caso y ganas de volver mañana por obligación, no por ilusión.
+El abandono puede consistir en entregar un esquema cuando se pidió el documento, anunciar acciones que nunca se ejecutan, presentar un avance parcial como resultado definitivo o detenerse ante una dificultad evitable. Confundir movimiento con cumplimiento deja al usuario en la misma situación que el ciudadano de la ventanilla: con papeles, número de caso y la obligación de volver mañana.
 
-Empezar no es terminar.
+Para detectarlo, hace falta definir desde el comienzo qué significa “terminado” y comprobar la entrega contra esa condición. Haber iniciado correctamente no compensa la ausencia del resultado acordado.
 
-Versión oficina:
+“Empezar no es terminar.”
 
-"Lo tengo avanzadísimo: todavía no existe, pero avanzadísimo."
+“Lo tengo avanzadísimo: todavía no existe, pero avanzadísimo.”
+
+El abandono operativo puede adoptar distintas formas:
+
+- Tasa de deserción: la IA abandona completamente la tarea.
+
+- Índice de inconstancia: empieza de forma adecuada, pero pierde continuidad.
+
+- Déficit de finalización: produce algo aprovechable, aunque incompleto.
+
+- Tasa de compromiso incumplido: anuncia acciones que después no ejecuta.
+
+- Índice de tarea a medias: presenta un avance parcial como si fuera la entrega final.
