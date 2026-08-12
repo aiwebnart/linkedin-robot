@@ -24,6 +24,14 @@
       "postUrn": "urn:li:share:7492871288349245443",
       "imageUrn": "urn:li:image:D4E10AQExhobaegsqig",
       "publicationMethod": "linkedin_official_api"
+    },
+    {
+      "itemId": "04",
+      "status": "published",
+      "publishedAt": "2026-08-12T09:33:07.647Z",
+      "postUrn": "urn:li:share:7493238127906467841",
+      "imageUrn": "urn:li:image:D4E10AQEudXsgYwYMMw",
+      "publicationMethod": "linkedin_official_api"
     }
   ]
 }
